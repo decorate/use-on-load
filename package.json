@@ -1,6 +1,6 @@
 {
   "name": "@team-decorate/use-on-load",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "main": "./dist/index.umd.js",
   "types": "./dist/src/index.d.ts",
   "files": [
@@ -50,11 +50,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/decorate/vue3-validate-plugin.git"
+    "url": "git+https://github.com/decorate/use-on-load.git"
   },
   "keywords": [
     "ts",
     "vue3",
-    "validate"
+    "loading"
   ]
 }

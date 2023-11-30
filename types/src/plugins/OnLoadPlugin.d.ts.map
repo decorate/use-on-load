@@ -1,0 +1,1 @@
+{"version":3,"file":"OnLoadPlugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/OnLoadPlugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,qBAAqB,EAA6C,MAAM,0BAA0B,CAAA;AAC1G,OAAO,EAAC,GAAG,EAAwD,MAAM,KAAK,CAAA;AAG9E,UAAU,aAAa;IACtB,OAAO,CAAC,GAAG,EAAE,GAAG,EAAE,OAAO,CAAC,EAAE,qBAAqB,GAAG,GAAG,CAAA;CACvD;AAED,eAAO,MAAM,YAAY,EAAE,aAI1B,CAAA"}
