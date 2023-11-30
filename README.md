@@ -25,8 +25,8 @@ import {OnLoadPlugin} from '@team-decorate/use-on-load'
 const app = createApp(App)
 
 app
-	.use(BootstrapVue3)
-	.use(OnLoadPlugin)
+  .use(BootstrapVue3)
+  .use(OnLoadPlugin)
 
 app.mount('#app')
 ```
@@ -47,8 +47,8 @@ import {OnLoadPlugin} from '@team-decorate/use-on-load'
 const app = createApp(App)
 
 app
-	.use(BootstrapVue3)
-	.use(ValidatePlugin, {axios: axios})
+  .use(BootstrapVue3)
+  .use(ValidatePlugin, {axios: axios})
 
 const validateContext = app.runWithContext(() => inject(ValidateKey))
 
