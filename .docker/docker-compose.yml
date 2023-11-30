@@ -1,0 +1,20 @@
+version: '3.7'
+services:
+
+    app:
+        build:
+            context: .
+        container_name: use-on-load
+        restart: unless-stopped
+        tty: true
+        ports:
+            - "8089:5173"
+            - "3000:3000"
+        volumes:
+            - ../:/usr/src/useOnLoad
+        networks:
+          - use-on-load-network
+
+networks:
+  use-on-load-network:
+    driver: bridge
